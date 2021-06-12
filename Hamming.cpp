@@ -31,7 +31,7 @@ vector<int> Hamming::generarCodigoHamming(vector<int> msgBits, int m, int r)
         int x = log2(i + 1);
         int conteo = 0;
 
-        // Encontrar los bits de msg que contienen el bit set en la posición x'th #########################
+        // Encontrar los bits de msg que contienen el bit set en la posición x
         for (int j = i + 2;
              j <= (r + m); ++j) {
 
