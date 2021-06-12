@@ -6,7 +6,7 @@ using namespace std;
 
 class Paridad {
 public:
-    bool getParity(unsigned int n);
+    bool getParidad(unsigned int n);
 };
 
 
